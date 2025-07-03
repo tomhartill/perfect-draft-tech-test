@@ -1,8 +1,17 @@
 # Perfect Draft Tech Test
 
-<h3>Staging URL:</h3>
+<h3>Staging URL (no pipes):</h3>
 
 https://perfect.tomhartill.com/
+
+## Notes
+
+Vendor directory is not comitted, please run composer update.
+
+Changes can be found in the development branch, with sub branches for each task.
+
+A child theme was used (Tom/theme-perfect-draft) instead of modifying the parent theme (luma) directory. 
+Instructions were not clear on this, so adhered to best practices.
 
 ## Task:
 
