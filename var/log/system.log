@@ -1,0 +1,126 @@
+[2025-07-02T20:19:46.926553+00:00] main.ERROR: Parameter validation failed
+#0 /var/www/perfect-draft/vendor/symfony/console/Command/Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 /var/www/perfect-draft/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#2 /var/www/perfect-draft/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#3 /var/www/perfect-draft/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#4 /var/www/perfect-draft/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#5 /var/www/perfect-draft/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2025-07-02T20:22:32.688687+00:00] main.ERROR: Parameter validation failed
+#0 /var/www/perfect-draft/vendor/symfony/console/Command/Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 /var/www/perfect-draft/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#2 /var/www/perfect-draft/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#3 /var/www/perfect-draft/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#4 /var/www/perfect-draft/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#5 /var/www/perfect-draft/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2025-07-02T20:23:23.136005+00:00] main.ERROR: Parameter validation failed
+#0 /var/www/perfect-draft/vendor/symfony/console/Command/Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 /var/www/perfect-draft/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#2 /var/www/perfect-draft/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#3 /var/www/perfect-draft/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#4 /var/www/perfect-draft/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#5 /var/www/perfect-draft/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2025-07-02T20:41:09.699410+00:00] main.ERROR: Parameter validation failed
+#0 /var/www/perfect-draft/vendor/symfony/console/Command/Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 /var/www/perfect-draft/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#2 /var/www/perfect-draft/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#3 /var/www/perfect-draft/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#4 /var/www/perfect-draft/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#5 /var/www/perfect-draft/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2025-07-02T20:43:03.884052+00:00] main.ERROR: Current version of RDBMS is not supported. Used Version: 10.11.11-MariaDB-0+deb12u1. Supported versions: MySQL-8, MySQL-8.4, MySQL-5.7, MariaDB-(10.2-10.6), MariaDB-11.4
+#0 /var/www/perfect-draft/vendor/magento/framework/DB/Adapter/SqlVersionProvider.php(93): Magento\Framework\DB\Adapter\SqlVersionProvider->getVersionString()
+#1 /var/www/perfect-draft/vendor/magento/framework/DB/Adapter/SqlVersionProvider.php(191): Magento\Framework\DB\Adapter\SqlVersionProvider->getSqlVersion()
+#2 /var/www/perfect-draft/vendor/magento/framework/DB/Adapter/SqlVersionProvider.php(148): Magento\Framework\DB\Adapter\SqlVersionProvider->isMariaDbEngine()
+#3 /var/www/perfect-draft/vendor/magento/framework/Setup/Declaration/Schema/Dto/Factories/Table.php(129): Magento\Framework\DB\Adapter\SqlVersionProvider->isMysqlGte8029()
+#4 /var/www/perfect-draft/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(4324): Magento\Framework\Setup\Declaration\Schema\Dto\Factories\Table->getDefaultCharset()
+#5 /var/www/perfect-draft/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(2454): Magento\Framework\DB\Adapter\Pdo\Mysql->setDefaultCharsetAndCollation()
+#6 /var/www/perfect-draft/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(2317): Magento\Framework\DB\Adapter\Pdo\Mysql->_getColumnsDefinition()
+#7 /var/www/perfect-draft/generated/code/Magento/Framework/DB/Adapter/Pdo/Mysql/Interceptor.php(419): Magento\Framework\DB\Adapter\Pdo\Mysql->createTable()
+#8 /var/www/perfect-draft/setup/src/Magento/Setup/Model/Installer.php(661): Magento\Framework\DB\Adapter\Pdo\Mysql\Interceptor->createTable()
+#9 /var/www/perfect-draft/setup/src/Magento/Setup/Model/Installer.php(967): Magento\Setup\Model\Installer->setupModuleRegistry()
+#10 [internal function]: Magento\Setup\Model\Installer->installSchema()
+#11 /var/www/perfect-draft/setup/src/Magento/Setup/Model/Installer.php(422): call_user_func_array()
+#12 /var/www/perfect-draft/setup/src/Magento/Setup/Console/Command/InstallCommand.php(239): Magento\Setup\Model\Installer->install()
+#13 /var/www/perfect-draft/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#14 /var/www/perfect-draft/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#15 /var/www/perfect-draft/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#16 /var/www/perfect-draft/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#17 /var/www/perfect-draft/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#18 /var/www/perfect-draft/bin/magento(23): Symfony\Component\Console\Application->run()
+#19 {main} [] []
+[2025-07-02T20:58:26.713533+00:00] main.INFO: Source table payment_services_order_status_data_production_submitted_hash does not exist. Skipping data migration... [] []
+[2025-07-02T20:58:31.203224+00:00] main.ERROR: Could not validate a connection to the OpenSearch. No alive nodes found in your cluster
+#0 /var/www/perfect-draft/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/perfect-draft/setup/src/Magento/Setup/Model/Installer.php(1261): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 /var/www/perfect-draft/setup/src/Magento/Setup/Model/Installer.php(422): call_user_func_array()
+#4 /var/www/perfect-draft/setup/src/Magento/Setup/Console/Command/InstallCommand.php(239): Magento\Setup\Model\Installer->install()
+#5 /var/www/perfect-draft/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 /var/www/perfect-draft/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/perfect-draft/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/perfect-draft/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#9 /var/www/perfect-draft/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/perfect-draft/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2025-07-02T21:21:05.734794+00:00] main.ERROR: Could not validate a connection to the OpenSearch. No alive nodes found in your cluster
+#0 /var/www/perfect-draft/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/perfect-draft/setup/src/Magento/Setup/Model/Installer.php(1261): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 /var/www/perfect-draft/setup/src/Magento/Setup/Model/Installer.php(422): call_user_func_array()
+#4 /var/www/perfect-draft/setup/src/Magento/Setup/Console/Command/InstallCommand.php(239): Magento\Setup\Model\Installer->install()
+#5 /var/www/perfect-draft/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 /var/www/perfect-draft/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/perfect-draft/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/perfect-draft/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#9 /var/www/perfect-draft/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/perfect-draft/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2025-07-02T21:24:33.979382+00:00] main.ERROR: Could not validate a connection to Elasticsearch. No alive nodes. All the 1 nodes seem to be down.
+#0 /var/www/perfect-draft/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/perfect-draft/setup/src/Magento/Setup/Model/Installer.php(1261): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 /var/www/perfect-draft/setup/src/Magento/Setup/Model/Installer.php(422): call_user_func_array()
+#4 /var/www/perfect-draft/setup/src/Magento/Setup/Console/Command/InstallCommand.php(239): Magento\Setup\Model\Installer->install()
+#5 /var/www/perfect-draft/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 /var/www/perfect-draft/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/perfect-draft/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/perfect-draft/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#9 /var/www/perfect-draft/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/perfect-draft/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2025-07-02T21:31:24.312904+00:00] main.ERROR: Could not validate a connection to Elasticsearch. No alive nodes. All the 1 nodes seem to be down.
+#0 /var/www/perfect-draft/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/perfect-draft/setup/src/Magento/Setup/Model/Installer.php(1261): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 /var/www/perfect-draft/setup/src/Magento/Setup/Model/Installer.php(422): call_user_func_array()
+#4 /var/www/perfect-draft/setup/src/Magento/Setup/Console/Command/InstallCommand.php(239): Magento\Setup\Model\Installer->install()
+#5 /var/www/perfect-draft/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 /var/www/perfect-draft/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/perfect-draft/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/perfect-draft/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#9 /var/www/perfect-draft/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/perfect-draft/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2025-07-02T21:32:26.331301+00:00] main.ERROR: Could not validate a connection to Elasticsearch. No alive nodes. All the 1 nodes seem to be down.
+#0 /var/www/perfect-draft/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/perfect-draft/setup/src/Magento/Setup/Model/Installer.php(1261): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 /var/www/perfect-draft/setup/src/Magento/Setup/Model/Installer.php(422): call_user_func_array()
+#4 /var/www/perfect-draft/setup/src/Magento/Setup/Console/Command/InstallCommand.php(239): Magento\Setup\Model\Installer->install()
+#5 /var/www/perfect-draft/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 /var/www/perfect-draft/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/perfect-draft/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/perfect-draft/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#9 /var/www/perfect-draft/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/perfect-draft/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2025-07-02T22:58:42.016022+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-07-03T09:46:20.451275+00:00] main.ERROR: Transport error while sending email: Unable to write bytes on the wire. [] []
+[2025-07-03T09:53:38.829853+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-07-03T09:54:18.616615+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2025-07-03T09:54:18.616998+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2025-07-03T09:55:27.745144+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-07-03T10:58:59.431774+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
