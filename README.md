@@ -10,7 +10,7 @@ Vendor directory is not comitted, please run composer update.
 
 Changes can be found in the development branch, with sub branches for each task.
 
-A child theme was used (Tom/theme-perfect-draft) instead of modifying the parent theme (luma) directory. 
+A child theme was used (Tom/luma_child) instead of modifying the parent theme (luma) directory. 
 Instructions were not clear on this, so adhered to best practices.
 
 ## Task:
