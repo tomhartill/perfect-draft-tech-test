@@ -1,0 +1,30 @@
+// Button colours
+
+//  Default = secondary button
+@button__color: @color-black;
+@button__background: @color-yellow1;
+@button__border: 1px solid @color-yellow1;
+
+@button__hover__color: @color-black;
+@button__hover__background: darken(@color-yellow1, 10%);
+@button__hover__border: 1px solid darken(@color-yellow1, 10%);
+
+@button__active__color: @color-black;
+@button__active__background: darken(@color-yellow1, 5%);
+@button__active__border: 1px solid darken(@color-yellow1, 5%);
+
+//  Primary button
+@button-primary__color: @color-black;
+@button-primary__background: @color-yellow1;
+@button-primary__border: @color-yellow1;
+
+@button-primary__active__background: darken(@color-yellow1, 5%);
+@button-primary__active__border: 1px solid darken(@color-yellow1, 5%);
+@button-primary__active__color: @color-black;
+
+@button-primary__hover__color: @color-black;
+@button-primary__hover__background: darken(@color-yellow1, 10%);
+@button-primary__hover__border: 1px solid @color-yellow1;
+
+// Can't compile without this for some reason:
+@copyright__background-color: @color-white;

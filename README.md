@@ -1,6 +1,6 @@
 # Perfect Draft Tech Test
 
-<h3>Staging URL:</h3>
+<h3>Staging URL (no pipes):</h3>
 
 https://perfect.tomhartill.com/index.php/perfect-draft-form-only
 
@@ -14,6 +14,15 @@ An alternative approach could have been pushing the child theme into a repo for 
 
 There is another branch called custom-page-module where the page layout and template is developed as a module and not part of the child theme. 
 I realised this probably wasn't what you wanted tho, and remains unfinished.
+
+## Notes
+
+Vendor directory is not comitted, please run composer update.
+
+Changes can be found in the development branch, with sub branches for each task.
+
+A child theme was used (Tom/luma_child) instead of modifying the parent theme (luma) directory. 
+Instructions were not clear on this, so adhered to best practices.
 
 ## Task:
 

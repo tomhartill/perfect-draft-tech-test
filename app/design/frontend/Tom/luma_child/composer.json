@@ -1,0 +1,20 @@
+{
+    "name": "Tom/luma_child",
+    "description": "Custom child theme to complete Perfect Draft Tech Test",
+    "require": {
+        "php": "8.*",
+        "magento/framework": "103.0.*",
+        "tom/blank_clone": "100.4.*"
+    },
+    "type": "magento2-theme",
+    "version": "100.0.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page_layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/PageLayout/etc/layouts.xsd">
+    <layout id="perfect-draft-layout">
+        <label translate="true">Perfect Draft Layout</label>
+    </layout>
+    <layout id="perfect-draft-layout-form-only">
+        <label translate="true">Perfect Draft Layout (form only)</label>
+    </layout>
+</page_layouts>
