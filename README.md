@@ -2,7 +2,18 @@
 
 <h3>Staging URL:</h3>
 
-https://perfect.tomhartill.com/
+https://perfect.tomhartill.com/index.php/perfect-draft-form-only
+
+https://perfect.tomhartill.com/index.php/perfect-draft
+
+## Notes:
+
+I encountered a known bug in Magento core when a child theme cannot inherit it's parents less files to deploy/compile. 
+So i've copied the luma theme and it's parent blank into app and renamed the themes accordingly. 
+An alternative approach could have been pushing the child theme into a repo for use by composer, so it exists in the vendor directory, this seemed out of scope tho.
+
+There is another branch called custom-page-module where the page layout and template is developed as a module and not part of the child theme. 
+I realised this probably wasn't what you wanted tho, and remains unfinished.
 
 ## Task:
 
