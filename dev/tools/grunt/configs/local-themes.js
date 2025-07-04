@@ -41,9 +41,19 @@ module.exports = {
         ],
         dsl: 'less'
     },
-    luma_child: {
+    blank_clone: {
         area: 'frontend',
-        name: 'Tom/luma_child',
+        name: 'Tom/blank_clone',
+        locale: 'en_US',
+        files: [
+            'css/styles-m',
+            'css/styles-l'
+        ],
+        dsl: 'less'
+    },
+    luma_clone: {
+        area: 'frontend',
+        name: 'Tom/luma_clone',
         locale: 'en_US',
         files: [
             'css/styles-m',
